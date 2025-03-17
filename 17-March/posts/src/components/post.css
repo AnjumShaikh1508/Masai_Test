@@ -1,0 +1,71 @@
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Controls */
+  .controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-input,
+  .dropdown {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Loading & No Posts Messages */
+  .loading-message,
+  .no-posts-message {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Posts Grid */
+  .posts-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  @media (min-width: 600px) {
+    .posts-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  /* Post Card */
+  .post-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .post-body {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .post-user {
+    font-size: 12px;
+    color: #666;
+    text-align: right;
+  }
+  
